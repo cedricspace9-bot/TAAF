@@ -9,7 +9,7 @@ app = Flask(__name__)
 # =====================================================================
 SUPABASE_URL = "https://cmuldpdmkengtdnuqbwg.supabase.co"
 SUPABASE_KEY = "sb_publishable_gHCc75Jb7KecZFKZvuu_qg_lY17ql-6"
-OFFICIAL_CLIENT_TOKEN = "AI_FLOW_SECURE_TOKEN_2026"
+OFFICIAL_CLIENT_TOKEN = "AI_FLOW_2026"
 # =====================================================================
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
